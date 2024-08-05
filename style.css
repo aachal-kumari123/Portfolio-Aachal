@@ -314,9 +314,15 @@ form .btn2{
 
 
 /* =================responsive============================ */
-
+nav .fa-brands{
+    display: none;
+}
 
 @media only screen and(max-width:600px){
+    #header{
+        /* background-image: url(Screenshot\ 2024-08-04\ 161502[1].png); */
+        background-color: black;
+    }
    .header-text {
     margin-top: 100%;
     font-size: 16px;
@@ -324,6 +330,19 @@ form .btn2{
    .header-text h1{
     font-size: 30px;
    }
+   nav .fa-brands{
+    display:block;
+    font-size:25px ;
+}
+nav ul{
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+}
    }
 
 
